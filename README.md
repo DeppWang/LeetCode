@@ -1,1 +1,1 @@
-# [LeetCode个人题解](https://leetcode-cn.com/problemset/all/)
+# [LeetCode](https://leetcode-cn.com/problemset/all/)个人思路
