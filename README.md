@@ -16,6 +16,7 @@
 * [画解 LeetCode：26. 删除排序数组中的重复项](docs/26.%20remove-duplicates-from-sorted-array.md)：一个指针从前往后遍历数组，一个指针记录不重复元素的数量（数组下标）。标签：`双指针`
 * [画解 LeetCode：94. 二叉树的中序遍历](docs/94.%20binary-tree-inoder-traversal.md)：左跟右，如果没有左子树，记录其值。标签：`递归`、`栈`
 * [画解 LeetCode：232. 用栈实现队列](docs/232.%20implement-queue-using-stacks.md)：使用两个栈，入队，元素压入栈 s1；出队，s1 倒入 s2，弹出 s2 顶部元素，不用倒回。标签：`栈`
+* [画解 LeetCode：237. 删除链表中的节点](docs/237.%20delete-node-in-a-linked-list.md)：将下一个节点赋给当前节点，删除下一个节点。标签：`链表`
 
 
 LeetCode 题库地址：https://leetcode-cn.com/problemset/all/
