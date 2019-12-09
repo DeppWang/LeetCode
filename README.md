@@ -13,6 +13,8 @@
 * [画解 LeetCode：14. 最长公共前缀](docs/14.%20longest-common-prefix.md)：先将第一个字符串作为公共前缀。标签：`字符串`
 * [画解 LeetCode：20. 有效的括号](docs/14.%20valid-parentheses.md)：将字符串的字符依次入栈，弹出直接闭合的字符，最后栈为空，则为有效字符。标签：`栈`
 * [画解 LeetCode：21. 合并两个有序链表](docs/21.%20merge-two-sorted-lists.md)：较小的头结点作为结果头结点，next 节点从剩余节点中取最小。标签：`递归`
+* [画解 LeetCode：24. 两两交换链表中的节点](docs/24.%20swap-nodes-in-pairs.md)：25，k 固定为 2 
+* [画解 LeetCode：25. K 个一组翻转链表](docs/25%reverse-nodes-in-k-group.md)：分为已翻转、待翻转、未翻转，利用「指针」，分离原链表
 * [画解 LeetCode：26. 删除排序数组中的重复项](docs/26.%20remove-duplicates-from-sorted-array.md)：一个指针从前往后遍历数组，一个指针记录不重复元素的数量（数组下标）。标签：`双指针`
 * [画解 LeetCode：94. 二叉树的中序遍历](docs/94.%20binary-tree-inoder-traversal.md)：左跟右，如果没有左子树，记录其值。标签：`递归`、`栈`
 * [画解 LeetCode：232. 用栈实现队列](docs/232.%20implement-queue-using-stacks.md)：使用两个栈，入队，元素压入栈 s1；出队，s1 倒入 s2，弹出 s2 顶部元素，不用倒回。标签：`栈`
