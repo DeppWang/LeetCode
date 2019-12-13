@@ -16,7 +16,8 @@
 * [画解 LeetCode：24. 两两交换链表中的节点](docs/24.%20swap-nodes-in-pairs.md)：25，k 固定为 2 
 * [画解 LeetCode：25. K 个一组翻转链表](docs/25%reverse-nodes-in-k-group.md)：分为已翻转、待翻转、未翻转，利用「指针」，分离原链表
 * [画解 LeetCode：26. 删除排序数组中的重复项](docs/26.%20remove-duplicates-from-sorted-array.md)：一个指针从前往后遍历数组，一个指针记录不重复元素的数量（数组下标）。标签：`双指针`
-* [画解 LeetCode：94. 二叉树的中序遍历](docs/94.%20binary-tree-inoder-traversal.md)：左跟右，如果没有左子树，记录其值。标签：`递归`、`栈`
+* [画解 LeetCode：94. 二叉树的中序遍历](docs/94.%20binary-tree-inoder-traversal.md)：左根右，如果没有左子树，记录其值。标签：`递归`、`栈`
+* [114. 二叉树的前序遍历]()：根左右，先记录其值，再递归调用左右子树。标签：`递归`、`栈`
 * [画解 LeetCode：232. 用栈实现队列](docs/232.%20implement-queue-using-stacks.md)：使用两个栈，入队，元素压入栈 s1；出队，s1 倒入 s2，弹出 s2 顶部元素，不用倒回。标签：`栈`
 * [画解 LeetCode：237. 删除链表中的节点](docs/237.%20delete-node-in-a-linked-list.md)：将下一个节点赋给当前节点，删除下一个节点。标签：`链表`
 
