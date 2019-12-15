@@ -4,8 +4,7 @@
 
 * [画解 LeetCode：1. 两数之和](docs/1.%20two-sum.md)：使用哈希表的 contains() 来比较其他元素是否符合条件。标签：`哈希表`
 * [画解 LeetCode：2. 两数相加](docs/2.%20add-two-numbers.md)：使用一个假节点来链接链表。标签：`链表`
-* [画解 LeetCode：3. 无重复字符的最长子串](docs/3.%20longest-substring-without-repeating-character.md)：滑动找到所有不重复的子字符串，如果长度最长，记录为最长字符串。标签：`字符串`、`Sliding Window`
-* [画解 LeetCode：5. 最长回文子串](docs/5.md)：先将字符串反转，两者比较，利用动态规划得到最长公共子串。再排除字符串首尾是反向副本的情况（`aacdcaa`）。标签：`字符串`、`动态规划`
+* [画解 LeetCode：3. 无重复字符的最长子串](docs/3.%20longest-substring-without-repeating-character.md)：滑动找到所有不重复的子字符串，如果长度最长，记录为最长字符串。标签：`Sliding Window`
 * [画解 LeetCode：7. 整数反转](docs/7.%20reverse-integer.md)：依次除 10 取余，考虑溢出。标签：`数学`
 * [画解 LeetCode：9. 回文数](docs/9.%20palindrome-number.md)：依次比较最高位和最低位是否相等。标签：`数学`
 * [画解 LeetCode：13. 罗马数字转整数](docs/13.%20roman-to-integer.md)：
@@ -15,22 +14,30 @@
 * [画解 LeetCode：21. 合并两个有序链表](docs/21.%20merge-two-sorted-lists.md)：较小的头结点作为结果头结点，next 节点从剩余节点中取最小。标签：`递归`
 * [画解 LeetCode：24. 两两交换链表中的节点](docs/24.%20swap-nodes-in-pairs.md)：25，k 固定为 2 
 * [画解 LeetCode：25. K 个一组翻转链表](docs/25%reverse-nodes-in-k-group.md)：分为已翻转、待翻转、未翻转，利用「指针」，分离原链表
-* [画解 LeetCode：26. 删除排序数组中的重复项](docs/26.%20remove-duplicates-from-sorted-array.md)：一个指针从前往后遍历数组，一个指针记录不重复元素的数量（数组下标）。标签：`双指针`
-* [画解 LeetCode：94. 二叉树的中序遍历](docs/94.%20binary-tree-inoder-traversal.md)：左根右，如果没有左子树，记录其值。标签：`递归`、`栈`
-* [114. 二叉树的前序遍历]()：根左右，先记录其值，再递归调用左右子树。标签：`递归`、`栈`
+* 
 * [画解 LeetCode：232. 用栈实现队列](docs/232.%20implement-queue-using-stacks.md)：使用两个栈，入队，元素压入栈 s1；出队，s1 倒入 s2，弹出 s2 顶部元素，不用倒回。标签：`栈`
 * [画解 LeetCode：237. 删除链表中的节点](docs/237.%20delete-node-in-a-linked-list.md)：将下一个节点赋给当前节点，删除下一个节点。标签：`链表`
 
 ### 双指针
 
 - [19. 删除链表的倒数第 N 个节点](/docs/19.md)：前后两个指针相隔 K 个节点，同时往后遍历，当后指针到达末节点，前指针就是倒数第 K 个节点。
+- [26. 删除排序数组中的重复项](docs/26.%20remove-duplicates-from-sorted-array.md)：一个指针从前往后遍历数组，一个指针记录不重复元素的数量（数组下标）。标签：`双指针`
 
 ### 动态规划
 
-> 通过子问题解决父问题，即父问题答案可以通过子问题得到。
+> Dynamic programming，简称 DP。通过子问题解决父问题，即父问题答案可以通过子问题得到。
 
 - [5. 最长回文子串](docs/5.md)：先将字符串反转，两者比较，利用动态规划得到最长公共子串。再排除字符串首尾是反向副本的情况（`aacdcaa`）
 - [91. 解码方法](/docs/91.md)：从后往前遍历，当前子序列总和为上一个加上上一个
+
+### 递归、栈
+
+* [94. 二叉树的中序遍历](docs/94.%20binary-tree-inoder-traversal.md)：左根右，如果没有左子树，记录其值。
+* [114. 二叉树的前序遍历](/docs/114.md)：根左右，先记录其值，再递归调用左右子树。
+
+> 深度优先遍历：递归（栈）实现
+>
+> 广度优先遍历：队列实现
 
 
 LeetCode 题库地址：https://leetcode-cn.com/problemset/all/
