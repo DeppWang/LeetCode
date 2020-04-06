@@ -114,14 +114,14 @@ Sliding Window（滑动窗口）
 -  [70. 爬楼梯](docs/70.md)：需要找到规律
 
 ## 做题交流：每天一小时算法群
+若二维码过期，可加我好友后拉你入群，请备注「算法」。
 
 <!--个人思想：不求速度，重视过程，每天早上思考一小时，没做出来第二天再思考，-->
+<p align="center">
+    <img src="https://deppwang.oss-cn-beijing.aliyuncs.com/blog/2020-03-16-030233.png" height="360">
+    <img src="https://deppwang.oss-cn-beijing.aliyuncs.com/blog/2020-03-16-030424.png" height="360">
+</p>
 
-<img src="https://deppwang.oss-cn-beijing.aliyuncs.com/blog/2020-03-16-030233.png" alt="image-20200316110233416" style="zoom:33%;" />
-
-若二维码过期，可加我好友后拉你入群。
-
-<img src="https://deppwang.oss-cn-beijing.aliyuncs.com/blog/2020-03-16-030424.png" alt="image-20200316110423925" style="zoom:33%;" />
 
 ##  思考
 
