@@ -22,6 +22,10 @@
 - [88. 合并两个有序数组](docs/88.md)：比较得到两个数组最大的元素，作为最大值放在最后。
 - [905. 按奇偶排序数组](docs/905.md)：将后面的偶数跟前面的奇数交换。标签：`前后双指针`
 
+二分查找
+
+- [34. Find First and Last Position of Element in Sorted Array](docs/34.md)
+
 栈
 
 - [56. 合并区间](docs/56.md)：先排序，再利用栈
