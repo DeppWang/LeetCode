@@ -154,7 +154,8 @@ Sliding Window（滑动窗口）
 
 ## 数据库
 
-
+- [175. 组合两个表](docs/175.md)：LEFT JOIN * ON *
+- [184. Department Highest Salary](docs/184.md)：使用 Group By + MAX()
 
 ---
 
